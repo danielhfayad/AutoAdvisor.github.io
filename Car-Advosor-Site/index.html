@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoAdvisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-row">
+
+      <div class="brand stacked">
+        <div class="top">Auto</div>
+        <div class="bottom">Advisor</div>
+      </div>
+
+      <nav class="nav">
+        <a href="#" id="navHome" class="active">Home</a>
+        <a href="#" id="navCompare">Compare</a>
+        <a href="#" id="navAbout">About</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+
+    <!-- HOME PAGE -->
+    <section id="pageHome">
+
+      <section class="hero">
+        <h1>Find the right car.</h1>
+        <p>Search by make, year, and price.</p>
+      </section>
+
+      <section class="controls">
+        <input id="searchInput" placeholder="Search cars..." />
+        <select id="makeSelect"><option value="">All makes</option></select>
+        <select id="yearSelect"><option value="">All years</option></select>
+        <select id="bodySelect"><option value="">All body types</option></select>
+        <select id="sortSelect">
+          <option value="">Sort by</option>
+          <option value="priceAsc">Price: Low → High</option>
+          <option value="priceDesc">Price: High → Low</option>
+        </select>
+      </section>
+
+      <!-- STARTER -->
+      <section class="starter">
+        <button id="starterBtn" class="btn secondary">
+          Not sure where to start?
+        </button>
+
+        <div id="starterModal" class="modal" hidden>
+          <div class="modalCard">
+
+            <div class="modalHeader">
+              <h2>Quick Car Finder</h2>
+              <button id="starterClose" class="btn secondary">Close</button>
+            </div>
+
+            <div class="modalBody">
+
+              <label class="q">
+                <div class="label">Budget</div>
+                <select id="qBudget">
+                  <option value="">Select…</option>
+                  <option value="low">Under $18,000</option>
+                  <option value="mid">$18,000–$23,000</option>
+                  <option value="high">$23,000+</option>
+                </select>
+              </label>
+
+              <label class="q">
+                <div class="label">Primary use</div>
+                <select id="qUse">
+                  <option value="">Select…</option>
+                  <option value="commute">Daily commuting</option>
+                  <option value="family">Family / space</option>
+                  <option value="outdoors">Outdoors / light off-road</option>
+                  <option value="work">Work / hauling</option>
+                </select>
+              </label>
+
+              <label class="q">
+                <div class="label">Top priority</div>
+                <select id="qPriority">
+                  <option value="">Select…</option>
+                  <option value="mpg">Fuel economy</option>
+                  <option value="reliability">Reliability</option>
+                  <option value="cheap">Lowest price</option>
+                  <option value="space">More space</option>
+                </select>
+              </label>
+
+              <button id="starterRun" class="btn">
+                Show me options
+              </button>
+
+              <div id="starterResults" class="starterResults"></div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESULTS -->
+      <div id="status"></div>
+      <div id="cards" class="grid"></div>
+
+<!-- Car Details Modal -->
+<div id="carModal" class="modal" hidden>
+  <div class="modalCard">
+    <div class="modalHeader">
+      <h2 id="carModalTitle">Car Details</h2>
+      <button id="carModalClose" class="btn secondary">Close</button>
+    </div>
+
+    <div class="modalBody">
+<img id="carModalImg" class="modal-img" />
+
+      <div class="card" id="carModalFacts"></div>
+
+      <div class="card">
+        <strong>Ratings</strong>
+        <div id="carModalRatings" style="margin-top:10px; display:grid; gap:8px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+
+    <!-- COMPARE PAGE -->
+<section id="pageCompare" hidden>
+  <section class="hero">
+    <h1>Compare cars</h1>
+    <p>Select two cars to compare side-by-side.</p>
+  </section>
+
+  <section class="controls">
+    <select id="compareA">
+      <option value="">Select Car A</option>
+    </select>
+
+    <select id="compareB">
+      <option value="">Select Car B</option>
+    </select>
+  </section>
+
+  <div id="compareGrid" class="compare-grid"></div>
+</section>
+
+
+    <!-- ABOUT PAGE -->
+    <section id="pageAbout" hidden>
+      <section class="hero">
+        <h1>About AutoAdvisor</h1>
+        <p>
+          AutoAdvisor is a student-built web app that helps users narrow down car choices using filters and a guided survey.
+        </p>
+      </section>
+
+      <div class="card">
+        <strong>Purpose</strong>
+        <p style="opacity:.85; margin-top:8px;">
+          This project demonstrates front-end development fundamentals including data-driven UI, filtering, sorting, and user-centered design.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+:root {
+  --bg: #0f172a;
+  --card: #162447;
+  --card2: #162447;
+  --control: #1f3a6d;
+
+  --text: #ffffff;
+  --muted: #cccccc;
+  --line: rgba(255,255,255,0.10);
+
+  --radius: 18px;
+  --pad: 14px;
+  --shadow: 0 24px 70px rgba(0,0,0,0.6);
+}
+
+/* ---------- BASE ---------- */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: auto;
+}
+
+/* ---------- HEADER ---------- */
+.header {
+  background: var(--card);
+  padding: 12px 0;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  margin-left: 14px;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a.active {
+  color: #4f8cff;
+  text-decoration: underline;
+}
+
+/* ---------- BRAND ---------- */
+.brand.stacked {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.brand.stacked .top {
+  font-size: 18px;
+}
+
+.brand.stacked .bottom {
+  font-size: 18px;
+  color: #4f8cff;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  padding: 24px 0;
+}
+
+/* ---------- CONTROLS ---------- */
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.controls input,
+.controls select {
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: var(--control);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.controls input::placeholder {
+  color: rgba(255,255,255,0.65);
+}
+
+.controls input:hover,
+.controls select:hover {
+  border-color: rgba(255,255,255,0.35);
+}
+
+.controls input:focus,
+.controls select:focus {
+  outline: none;
+  border-color: #4f8cff;
+  box-shadow: 0 0 0 2px rgba(79,140,255,0.25);
+}
+
+/* ---------- GRID ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  background: var(--card);
+  padding: var(--pad);
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+
+/* ---------- STARTER ---------- */
+.starter {
+  margin-top: 8px;
+}
+
+.btn {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+/* ---------- MODAL ---------- */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 50;
+}
+
+.modal[hidden] {
+  display: none;
+}
+
+.modalCard {
+  width: min(720px, 94vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--card2);
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  padding: var(--pad);
+  box-shadow: var(--shadow);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: var(--card2);
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.modalBody {
+  display: grid;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+
+/* ---------- RATINGS ---------- */
+.rating-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 4px;
+  font-size: 18px;
+}
+
+.star {
+  color: rgba(255,255,255,0.25);
+}
+
+.star.filled {
+  color: #facc15;
+}
+
+/* ---------- COMPARE ---------- */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ===== STANDARD IMAGE FORMAT ===== */
+.modal-img,
+.compare-img {
+  width: 100%;
+  max-height: 360px;        /* caps size without forcing crop */
+  height: auto;             /* lets image keep its ratio */
+  object-fit: contain;      /* THIS is the key */
+  object-position: center;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #0b1220;      /* subtle backdrop */
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 850px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+}
