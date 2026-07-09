@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AutoAdvisor is a student-built vehicle recommendation web app with searchable inventory, guided recommendations, favorites, and side-by-side comparison." />
+  <title>AutoAdvisor | Vehicle Recommendation Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-row">
+      <button class="brand stacked" id="brandHome" aria-label="Go to home page">
+        <span class="top">Auto</span>
+        <span class="bottom">Advisor</span>
+      </button>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home" id="navHome" class="active">Home</a>
+        <a href="#compare" id="navCompare">Compare</a>
+        <a href="#about" id="navAbout">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="pageHome" class="page">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Student-built car discovery app</p>
+          <h1>Find a car that fits your budget, priorities, and lifestyle.</h1>
+          <p class="hero-subtitle">
+            AutoAdvisor uses searchable data, quick filters, a recommendation quiz, and side-by-side comparison to help users narrow down vehicle options faster.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn primary" id="browseBtn">Browse inventory</button>
+            <button class="btn starter-cta" id="starterBtn">Guided Car Recommendations</button>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Project highlights">
+          <div class="score-ring">
+            <span id="inventoryCount">15</span>
+            <small>vehicles</small>
+          </div>
+          <div class="hero-metrics">
+            <div><strong>4</strong><span>body styles</span></div>
+            <div><strong>5</strong><span>rating categories</span></div>
+            <div><strong>3</strong><span>decision tools</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="container feature-strip" aria-label="Application features">
+        <article>
+          <span class="feature-icon">01</span>
+          <h3>Searchable inventory</h3>
+          <p>Filter by make, year, body style, price, reliability, and fuel efficiency.</p>
+        </article>
+        <article>
+          <span class="feature-icon">02</span>
+          <h3>Recommendation logic</h3>
+          <p>The guided finder scores cars based on budget, use case, and priorities.</p>
+        </article>
+        <article>
+          <span class="feature-icon">03</span>
+          <h3>Compare decisions</h3>
+          <p>Pick two vehicles and instantly compare price, MPG, ratings, and strengths.</p>
+        </article>
+      </section>
+
+      <section class="container inventory-shell" id="inventorySection">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Inventory</p>
+            <h2>Explore vehicles</h2>
+          </div>
+          <div id="status" class="status" aria-live="polite"></div>
+        </div>
+
+        <section class="controls" aria-label="Vehicle filters">
+          <label>
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Search make or model" autocomplete="off" />
+          </label>
+
+          <label>
+            <span>Make</span>
+            <select id="makeSelect"><option value="">All makes</option></select>
+          </label>
+
+          <label>
+            <span>Year</span>
+            <select id="yearSelect"><option value="">All years</option></select>
+          </label>
+
+          <label>
+            <span>Body</span>
+            <select id="bodySelect"><option value="">All body types</option></select>
+          </label>
+
+          <label>
+            <span>Max price</span>
+            <select id="priceSelect">
+              <option value="">Any price</option>
+              <option value="18000">Under $18,000</option>
+              <option value="23000">Under $23,000</option>
+              <option value="28000">Under $28,000</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Sort</span>
+            <select id="sortSelect">
+              <option value="recommended">Recommended</option>
+              <option value="priceAsc">Price: Low → High</option>
+              <option value="priceDesc">Price: High → Low</option>
+              <option value="mpgDesc">Best MPG</option>
+              <option value="reliabilityDesc">Best reliability</option>
+              <option value="yearDesc">Newest</option>
+            </select>
+          </label>
+
+          <button class="btn secondary reset-btn" id="resetBtn">Reset</button>
+        </section>
+
+        <div class="quick-filters" aria-label="Quick filters">
+          <button class="chip-btn" data-filter="budget">Budget friendly</button>
+          <button class="chip-btn" data-filter="mpg">Best MPG</button>
+          <button class="chip-btn" data-filter="reliable">Most reliable</button>
+          <button class="chip-btn" data-filter="suv">SUVs</button>
+          <button class="chip-btn" data-filter="favorites">Favorites</button>
+        </div>
+
+        <div id="cards" class="grid"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <h3>No cars match those filters.</h3>
+          <p>Try clearing one filter or using the guided recommendations tool.</p>
+          <button class="btn primary" id="emptyResetBtn">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="starter">
+        <div id="starterModal" class="modal" hidden>
+          <div class="modalCard quiz-card" role="dialog" aria-modal="true" aria-labelledby="starterTitle">
+            <div class="modalHeader">
+              <div>
+                <p class="eyebrow">Guided decision tool</p>
+                <h2 id="starterTitle">Quick Car Finder</h2>
+              </div>
+              <button id="starterClose" class="btn icon-btn" aria-label="Close guided recommendations">×</button>
+            </div>
+
+            <div class="modalBody">
+              <div class="quiz-grid">
+                <label class="q">
+                  <span class="label">Budget</span>
+                  <select id="qBudget">
+                    <option value="">Select…</option>
+                    <option value="low">Under $18,000</option>
+                    <option value="mid">$18,000–$23,000</option>
+                    <option value="high">$23,000+</option>
+                  </select>
+                </label>
+
+                <label class="q">
+                  <span class="label">Primary use</span>
+                  <select id="qUse">
+                    <option value="">Select…</option>
+                    <option value="commute">Daily commuting</option>
+                    <option value="family">Family / space</option>
+                    <option value="outdoors">Outdoors / light off-road</option>
+                    <option value="work">Work / hauling</option>
+                  </select>
+                </label>
+
+                <label class="q">
+                  <span class="label">Top priority</span>
+                  <select id="qPriority">
+                    <option value="">Select…</option>
+                    <option value="mpg">Fuel economy</option>
+                    <option value="reliability">Reliability</option>
+                    <option value="cheap">Lowest price</option>
+                    <option value="space">More space</option>
+                  </select>
+                </label>
+              </div>
+
+              <button id="starterRun" class="btn primary full-width">Show me options</button>
+              <div id="starterResults" class="starterResults"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="carModal" class="modal" hidden>
+        <div class="modalCard detail-card" role="dialog" aria-modal="true" aria-labelledby="carModalTitle">
+          <div class="modalHeader">
+            <div>
+              <p class="eyebrow">Vehicle details</p>
+              <h2 id="carModalTitle">Car Details</h2>
+            </div>
+            <button id="carModalClose" class="btn icon-btn" aria-label="Close vehicle details">×</button>
+          </div>
+
+          <div class="modalBody detail-layout">
+            <img id="carModalImg" class="modal-img" alt="Selected vehicle" />
+            <div class="detail-content">
+              <div class="card" id="carModalFacts"></div>
+              <div class="card">
+                <strong>Ratings</strong>
+                <div id="carModalRatings" class="ratings-list"></div>
+              </div>
+              <div class="card">
+                <strong>Why this car may fit</strong>
+                <ul id="carModalReasons" class="reason-list"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pageCompare" class="page container" hidden>
+      <section class="hero compact-hero">
+        <div>
+          <p class="eyebrow">Decision support</p>
+          <h1>Compare cars side-by-side.</h1>
+          <p class="hero-subtitle">Choose two vehicles to compare cost, MPG, reliability, ratings, and the strongest match.</p>
+        </div>
+      </section>
+
+      <section class="controls compare-controls" aria-label="Compare vehicles">
+        <label>
+          <span>Car A</span>
+          <select id="compareA"><option value="">Select Car A</option></select>
+        </label>
+
+        <label>
+          <span>Car B</span>
+          <select id="compareB"><option value="">Select Car B</option></select>
+        </label>
+      </section>
+
+      <div id="compareSummary" class="compare-summary"></div>
+      <div id="compareGrid" class="compare-grid"></div>
+    </section>
+
+    <section id="pageAbout" class="page container" hidden>
+      <section class="hero compact-hero">
+        <div>
+          <p class="eyebrow">About the project</p>
+          <h1>AutoAdvisor turns car-search choices into structured decision logic.</h1>
+          <p class="hero-subtitle">
+            This project was built to demonstrate front-end development, data-driven UI rendering, user-centered design, filtering, sorting, recommendation scoring, and comparison workflows.
+          </p>
+        </div>
+      </section>
+
+      <div class="about-grid">
+        <article class="card about-card">
+          <h3>What it shows</h3>
+          <p>JavaScript state management, JSON-driven rendering, dynamic filters, modals, localStorage favorites, and conditional recommendation logic.</p>
+        </article>
+        <article class="card about-card">
+          <h3>Why it matters</h3>
+          <p>Instead of being a static page, AutoAdvisor helps users make a decision. That makes it easier to explain in applications, interviews, and project portfolios.</p>
+        </article>
+        <article class="card about-card">
+          <h3>Next improvements</h3>
+          <p>Add more vehicle data, real market price ranges, ownership cost estimates, safety ratings, and a clearer source note for vehicle information.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
