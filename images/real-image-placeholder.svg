@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="328" viewBox="0 0 930 328" role="img" aria-label="Real vehicle photo pending">
+  <rect width="930" height="328" fill="#eef3f8"/>
+  <rect x="36" y="34" width="858" height="260" rx="28" fill="#dce5ef" stroke="#b8c4d2" stroke-width="2"/>
+  <circle cx="465" cy="132" r="36" fill="#b8c4d2" opacity="0.55"/>
+  <path d="M446 130l15 17 27-34" fill="none" stroke="#738197" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="465" y="205" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#516074">Real vehicle photo pending</text>
+  <text x="465" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#7a8798">Add a clean manufacturer-style image for this model</text>
+</svg>

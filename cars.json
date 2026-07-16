@@ -1,0 +1,1948 @@
+[
+  {
+    "id": "toyota-camry-2022",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "body": "Sedan",
+    "price": 22500,
+    "priceEstimateMin": 18000,
+    "priceEstimateMax": 27000,
+    "mpgCity": 28,
+    "mpgHwy": 39,
+    "horsepower": 203,
+    "reliabilityScore": 9,
+    "maintenanceCost": "Low",
+    "mileageLife": 250000,
+    "aas": 9.1,
+    "bestFor": [
+      "Daily commuters",
+      "Reliability",
+      "Low ownership cost"
+    ],
+    "pros": [
+      "Strong reliability reputation",
+      "Comfortable midsize cabin",
+      "Good fuel economy"
+    ],
+    "cons": [
+      "Not as sporty as some rivals",
+      "Popular models may cost more used"
+    ],
+    "commonIssues": [
+      "Check service records and tire wear",
+      "Inspect for accident history"
+    ],
+    "yearsToConsider": [
+      "2018\u20132024",
+      "2025+ newer generation"
+    ],
+    "yearsToAvoid": [
+      "2007\u20132009 if poorly maintained"
+    ],
+    "notes": "Daily commuters, Reliability choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/toyota-camry.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 5,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "toyota-corolla-2022",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "body": "Sedan",
+    "price": 19250,
+    "priceEstimateMin": 15500,
+    "priceEstimateMax": 23000,
+    "mpgCity": 31,
+    "mpgHwy": 40,
+    "horsepower": 169,
+    "reliabilityScore": 9,
+    "maintenanceCost": "Low",
+    "mileageLife": 250000,
+    "aas": 9.0,
+    "bestFor": [
+      "Students",
+      "Budget buyers",
+      "Fuel economy"
+    ],
+    "pros": [
+      "Low maintenance cost",
+      "Efficient daily driver",
+      "Easy to park"
+    ],
+    "cons": [
+      "Smaller cabin than midsize sedans",
+      "Base models feel basic"
+    ],
+    "commonIssues": [
+      "Check CVT service history",
+      "Inspect brakes and suspension"
+    ],
+    "yearsToConsider": [
+      "2017\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2009\u20132010 high-mileage examples"
+    ],
+    "notes": "Students, Budget buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/toyota-corolla.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 2,
+      "longevity": 4,
+      "safety": 4,
+      "value": 5,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "toyota-rav4-2021",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2021,
+    "body": "SUV",
+    "price": 28000,
+    "priceEstimateMin": 23000,
+    "priceEstimateMax": 33000,
+    "mpgCity": 27,
+    "mpgHwy": 35,
+    "horsepower": 203,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 250000,
+    "aas": 8.8,
+    "bestFor": [
+      "Families",
+      "Reliability",
+      "Small SUV buyers"
+    ],
+    "pros": [
+      "Practical cargo room",
+      "Strong resale value",
+      "Good efficiency for an SUV"
+    ],
+    "cons": [
+      "Ride can feel firm",
+      "Popular trims can be expensive"
+    ],
+    "commonIssues": [
+      "Check for recalls and service updates",
+      "Inspect tires and alignment"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2006\u20132008 high-mileage examples"
+    ],
+    "notes": "Families, Reliability choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/toyota-rav4.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "honda-civic-2022",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "body": "Sedan",
+    "price": 23500,
+    "priceEstimateMin": 19000,
+    "priceEstimateMax": 28000,
+    "mpgCity": 31,
+    "mpgHwy": 40,
+    "horsepower": 158,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low",
+    "mileageLife": 230000,
+    "aas": 8.7,
+    "bestFor": [
+      "Students",
+      "Commuters",
+      "Fuel economy"
+    ],
+    "pros": [
+      "Efficient and fun to drive",
+      "Strong resale value",
+      "Good safety features"
+    ],
+    "cons": [
+      "Cabin noise can be noticeable",
+      "Sport trims cost more"
+    ],
+    "commonIssues": [
+      "Check CVT behavior",
+      "Inspect for modified examples"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2001\u20132005 older high-mileage examples"
+    ],
+    "notes": "Students, Commuters choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/honda-civic.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "honda-accord-2021",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 26000,
+    "priceEstimateMin": 21000,
+    "priceEstimateMax": 31000,
+    "mpgCity": 30,
+    "mpgHwy": 38,
+    "horsepower": 192,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 250000,
+    "aas": 8.6,
+    "bestFor": [
+      "Commuters",
+      "Families",
+      "Midsize sedan buyers"
+    ],
+    "pros": [
+      "Roomy interior",
+      "Strong fuel economy",
+      "Balanced ride"
+    ],
+    "cons": [
+      "Higher trims can be pricey",
+      "Turbo models need good maintenance"
+    ],
+    "commonIssues": [
+      "Check oil changes",
+      "Inspect tires and brakes"
+    ],
+    "yearsToConsider": [
+      "2018\u20132022",
+      "2023+ newer generation"
+    ],
+    "yearsToAvoid": [
+      "2008 model year if poorly maintained"
+    ],
+    "notes": "Commuters, Families choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/honda-accord.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "honda-cr-v-2021",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2021,
+    "body": "SUV",
+    "price": 28500,
+    "priceEstimateMin": 23000,
+    "priceEstimateMax": 34000,
+    "mpgCity": 28,
+    "mpgHwy": 34,
+    "horsepower": 190,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 240000,
+    "aas": 8.7,
+    "bestFor": [
+      "Families",
+      "Small SUV buyers",
+      "Resale value"
+    ],
+    "pros": [
+      "Spacious cabin",
+      "Efficient SUV choice",
+      "Strong resale"
+    ],
+    "cons": [
+      "Some turbo models need careful maintenance",
+      "Not built for heavy towing"
+    ],
+    "commonIssues": [
+      "Check A/C operation",
+      "Check service history"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2017 early turbo examples without service records"
+    ],
+    "notes": "Families, Small SUV buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/honda-cr-v.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "mazda-mazda3-2021",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2021,
+    "body": "Hatchback",
+    "price": 22500,
+    "priceEstimateMin": 18000,
+    "priceEstimateMax": 27000,
+    "mpgCity": 26,
+    "mpgHwy": 35,
+    "horsepower": 186,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 220000,
+    "aas": 8.4,
+    "bestFor": [
+      "Fun driving",
+      "Students",
+      "Small car buyers"
+    ],
+    "pros": [
+      "Premium-feeling interior",
+      "Good handling",
+      "Available hatchback practicality"
+    ],
+    "cons": [
+      "Rear seat is tighter",
+      "Visibility can be limited in hatchback"
+    ],
+    "commonIssues": [
+      "Inspect wheels/tires",
+      "Check infotainment controls"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2010\u20132013 high-mileage examples"
+    ],
+    "notes": "Fun driving, Students choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/mazda-mazda3.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "mazda-cx-5-2021",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2021,
+    "body": "SUV",
+    "price": 27500,
+    "priceEstimateMin": 22000,
+    "priceEstimateMax": 33000,
+    "mpgCity": 25,
+    "mpgHwy": 31,
+    "horsepower": 187,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 220000,
+    "aas": 8.5,
+    "bestFor": [
+      "Small SUV buyers",
+      "Comfort",
+      "Driving feel"
+    ],
+    "pros": [
+      "Upscale interior",
+      "Good handling for an SUV",
+      "Strong value"
+    ],
+    "cons": [
+      "Cargo space is not class-leading",
+      "Turbo trims cost more"
+    ],
+    "commonIssues": [
+      "Check brakes and tires",
+      "Review service records"
+    ],
+    "yearsToConsider": [
+      "2017\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2014 if neglected"
+    ],
+    "notes": "Small SUV buyers, Comfort choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/mazda-cx-5.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "mazda-cx-30-2022",
+    "make": "Mazda",
+    "model": "CX-30",
+    "year": 2022,
+    "body": "SUV",
+    "price": 25500,
+    "priceEstimateMin": 21000,
+    "priceEstimateMax": 30000,
+    "mpgCity": 24,
+    "mpgHwy": 31,
+    "horsepower": 186,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 210000,
+    "aas": 8.3,
+    "bestFor": [
+      "City driving",
+      "Small SUV buyers",
+      "Style"
+    ],
+    "pros": [
+      "Compact size",
+      "Nice interior",
+      "Available AWD"
+    ],
+    "cons": [
+      "Rear space is limited",
+      "Cargo space is smaller than CX-5"
+    ],
+    "commonIssues": [
+      "Check tire wear",
+      "Inspect paint and wheels"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "No major broad avoid year yet; avoid neglected examples"
+    ],
+    "notes": "City driving, Small SUV buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/mazda-cx-30.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "hyundai-elantra-2022",
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2022,
+    "body": "Sedan",
+    "price": 20000,
+    "priceEstimateMin": 16000,
+    "priceEstimateMax": 24000,
+    "mpgCity": 33,
+    "mpgHwy": 43,
+    "horsepower": 147,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 200000,
+    "aas": 8.1,
+    "bestFor": [
+      "Budget buyers",
+      "Fuel economy",
+      "Students"
+    ],
+    "pros": [
+      "Modern styling",
+      "Efficient",
+      "Good features for price"
+    ],
+    "cons": [
+      "Resale value lower than Toyota/Honda",
+      "Some trims feel basic"
+    ],
+    "commonIssues": [
+      "Check warranty status",
+      "Inspect infotainment and electronics"
+    ],
+    "yearsToConsider": [
+      "2021\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132016 high-mileage examples"
+    ],
+    "notes": "Budget buyers, Fuel economy choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/hyundai-elantra.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 2,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "hyundai-sonata-2021",
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 23000,
+    "priceEstimateMin": 18000,
+    "priceEstimateMax": 28000,
+    "mpgCity": 28,
+    "mpgHwy": 38,
+    "horsepower": 191,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 7.9,
+    "bestFor": [
+      "Value buyers",
+      "Midsize sedan buyers",
+      "Commuters"
+    ],
+    "pros": [
+      "Roomy cabin",
+      "Good features",
+      "Efficient trims available"
+    ],
+    "cons": [
+      "Resale value can be weaker",
+      "Reliability varies by engine/maintenance"
+    ],
+    "commonIssues": [
+      "Check engine service history",
+      "Inspect electronics"
+    ],
+    "yearsToConsider": [
+      "2020\u20132023"
+    ],
+    "yearsToAvoid": [
+      "2011\u20132014 with poor maintenance records"
+    ],
+    "notes": "Value buyers, Midsize sedan buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/hyundai-sonata.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "hyundai-tucson-2022",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2022,
+    "body": "SUV",
+    "price": 27500,
+    "priceEstimateMin": 22000,
+    "priceEstimateMax": 33000,
+    "mpgCity": 26,
+    "mpgHwy": 33,
+    "horsepower": 187,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 8.0,
+    "bestFor": [
+      "Small SUV buyers",
+      "Features",
+      "Value"
+    ],
+    "pros": [
+      "Modern cabin",
+      "Good tech features",
+      "Practical size"
+    ],
+    "cons": [
+      "Not the highest resale value",
+      "Hybrid/upper trims cost more"
+    ],
+    "commonIssues": [
+      "Check warranty and recalls",
+      "Inspect transmission feel"
+    ],
+    "yearsToConsider": [
+      "2022\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2016\u20132017 examples with spotty records"
+    ],
+    "notes": "Small SUV buyers, Features choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/hyundai-tucson.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "kia-forte-2021",
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 18250,
+    "priceEstimateMin": 14500,
+    "priceEstimateMax": 22000,
+    "mpgCity": 31,
+    "mpgHwy": 41,
+    "horsepower": 147,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 200000,
+    "aas": 8.0,
+    "bestFor": [
+      "Students",
+      "Budget buyers",
+      "Fuel economy"
+    ],
+    "pros": [
+      "Affordable used price",
+      "Good MPG",
+      "Simple daily driving"
+    ],
+    "cons": [
+      "Lower resale than Civic/Corolla",
+      "Cabin is more basic"
+    ],
+    "commonIssues": [
+      "Check warranty status",
+      "Inspect for rental/fleet history"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2010\u20132013 neglected examples"
+    ],
+    "notes": "Students, Budget buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/kia-forte.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 2,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "kia-k5-2022",
+    "make": "Kia",
+    "model": "K5",
+    "year": 2022,
+    "body": "Sedan",
+    "price": 26000,
+    "priceEstimateMin": 21000,
+    "priceEstimateMax": 31000,
+    "mpgCity": 27,
+    "mpgHwy": 37,
+    "horsepower": 180,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 8.1,
+    "bestFor": [
+      "Style",
+      "Commuters",
+      "Value"
+    ],
+    "pros": [
+      "Sharp design",
+      "Comfortable cabin",
+      "Good standard features"
+    ],
+    "cons": [
+      "Long-term reliability still developing",
+      "GT trim costs more"
+    ],
+    "commonIssues": [
+      "Check service and warranty",
+      "Inspect tires and suspension"
+    ],
+    "yearsToConsider": [
+      "2021\u20132024"
+    ],
+    "yearsToAvoid": [
+      "No broad avoid year yet; avoid poorly maintained examples"
+    ],
+    "notes": "Style, Commuters choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/kia-k5.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "kia-sportage-2022",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2022,
+    "body": "SUV",
+    "price": 25000,
+    "priceEstimateMin": 20000,
+    "priceEstimateMax": 30000,
+    "mpgCity": 23,
+    "mpgHwy": 30,
+    "horsepower": 181,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 7.8,
+    "bestFor": [
+      "Budget SUV buyers",
+      "Features",
+      "Small families"
+    ],
+    "pros": [
+      "Good value",
+      "Easy-to-use cabin",
+      "Available AWD"
+    ],
+    "cons": [
+      "MPG is average",
+      "Resale value trails Toyota/Honda"
+    ],
+    "commonIssues": [
+      "Check recalls and warranty",
+      "Inspect engine service records"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2012\u20132016 high-mileage examples"
+    ],
+    "notes": "Budget SUV buyers, Features choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/kia-sportage.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "nissan-sentra-2021",
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 19000,
+    "priceEstimateMin": 15000,
+    "priceEstimateMax": 23000,
+    "mpgCity": 29,
+    "mpgHwy": 39,
+    "horsepower": 149,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Low-Medium",
+    "mileageLife": 180000,
+    "aas": 7.7,
+    "bestFor": [
+      "Budget buyers",
+      "Students",
+      "Commuters"
+    ],
+    "pros": [
+      "Affordable used price",
+      "Comfortable seats",
+      "Good MPG"
+    ],
+    "cons": [
+      "CVT history requires careful inspection",
+      "Lower resale value"
+    ],
+    "commonIssues": [
+      "Test drive CVT carefully",
+      "Check service history"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132017 CVT issue years"
+    ],
+    "notes": "Budget buyers, Students choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/nissan-sentra.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 2,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "nissan-altima-2021",
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 21500,
+    "priceEstimateMin": 17000,
+    "priceEstimateMax": 26000,
+    "mpgCity": 28,
+    "mpgHwy": 39,
+    "horsepower": 188,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 7.8,
+    "bestFor": [
+      "Commuters",
+      "Value buyers",
+      "Midsize sedan buyers"
+    ],
+    "pros": [
+      "Comfortable ride",
+      "Available AWD",
+      "Good highway MPG"
+    ],
+    "cons": [
+      "CVT should be inspected",
+      "Resale value below Camry/Accord"
+    ],
+    "commonIssues": [
+      "Check transmission service",
+      "Inspect suspension"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132016 CVT issue years"
+    ],
+    "notes": "Commuters, Value buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/nissan-altima.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "nissan-rogue-2021",
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": 2021,
+    "body": "SUV",
+    "price": 24500,
+    "priceEstimateMin": 19000,
+    "priceEstimateMax": 30000,
+    "mpgCity": 26,
+    "mpgHwy": 34,
+    "horsepower": 181,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 7.9,
+    "bestFor": [
+      "Small families",
+      "SUV value",
+      "Commuters"
+    ],
+    "pros": [
+      "Comfortable cabin",
+      "Practical cargo room",
+      "Good features"
+    ],
+    "cons": [
+      "CVT reputation needs attention",
+      "Not the most powerful SUV"
+    ],
+    "commonIssues": [
+      "Check CVT operation",
+      "Review maintenance records"
+    ],
+    "yearsToConsider": [
+      "2021\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2014\u20132016 CVT issue years"
+    ],
+    "notes": "Small families, SUV value choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/nissan-rogue.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "subaru-crosstrek-2021",
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "year": 2021,
+    "body": "SUV",
+    "price": 26000,
+    "priceEstimateMin": 21000,
+    "priceEstimateMax": 31000,
+    "mpgCity": 27,
+    "mpgHwy": 34,
+    "horsepower": 152,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 220000,
+    "aas": 8.3,
+    "bestFor": [
+      "All-weather driving",
+      "Students",
+      "Small SUV buyers"
+    ],
+    "pros": [
+      "Standard AWD",
+      "Good ground clearance",
+      "Useful hatchback shape"
+    ],
+    "cons": [
+      "Acceleration is modest",
+      "Interior is simple"
+    ],
+    "commonIssues": [
+      "Check tire matching for AWD",
+      "Inspect suspension"
+    ],
+    "yearsToConsider": [
+      "2018\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132014 high-mileage examples"
+    ],
+    "notes": "All-weather driving, Students choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/subaru-crosstrek.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 2,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "subaru-forester-2021",
+    "make": "Subaru",
+    "model": "Forester",
+    "year": 2021,
+    "body": "SUV",
+    "price": 27500,
+    "priceEstimateMin": 22000,
+    "priceEstimateMax": 33000,
+    "mpgCity": 26,
+    "mpgHwy": 33,
+    "horsepower": 182,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 220000,
+    "aas": 8.4,
+    "bestFor": [
+      "Families",
+      "All-weather driving",
+      "Practicality"
+    ],
+    "pros": [
+      "Excellent visibility",
+      "Standard AWD",
+      "Good cargo room"
+    ],
+    "cons": [
+      "Cabin noise can be higher",
+      "Requires tire care for AWD"
+    ],
+    "commonIssues": [
+      "Check CVT behavior",
+      "Inspect tires evenly"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2011\u20132013 head-gasket-prone older examples"
+    ],
+    "notes": "Families, All-weather driving choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/subaru-forester.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "subaru-outback-2021",
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2021,
+    "body": "SUV",
+    "price": 29000,
+    "priceEstimateMin": 23000,
+    "priceEstimateMax": 35000,
+    "mpgCity": 26,
+    "mpgHwy": 33,
+    "horsepower": 182,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 230000,
+    "aas": 8.5,
+    "bestFor": [
+      "Road trips",
+      "Families",
+      "All-weather driving"
+    ],
+    "pros": [
+      "Wagon/SUV practicality",
+      "Comfortable ride",
+      "Standard AWD"
+    ],
+    "cons": [
+      "Large size for city parking",
+      "Turbo trims cost more"
+    ],
+    "commonIssues": [
+      "Check infotainment screen",
+      "Inspect tires and suspension"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2010\u20132014 older high-mileage examples"
+    ],
+    "notes": "Road trips, Families choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/subaru-outback.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "ford-f-150-2021",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "body": "Truck",
+    "price": 38500,
+    "priceEstimateMin": 30000,
+    "priceEstimateMax": 47000,
+    "mpgCity": 20,
+    "mpgHwy": 24,
+    "horsepower": 290,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium-High",
+    "mileageLife": 220000,
+    "aas": 8.2,
+    "bestFor": [
+      "Work/hauling",
+      "Truck buyers",
+      "Towing"
+    ],
+    "pros": [
+      "Strong capability",
+      "Many engine choices",
+      "High demand/resale"
+    ],
+    "cons": [
+      "Used prices can be high",
+      "Repairs can cost more"
+    ],
+    "commonIssues": [
+      "Check towing history",
+      "Inspect frame, suspension, and 4x4 system"
+    ],
+    "yearsToConsider": [
+      "2018\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2004\u20132006 older problematic examples"
+    ],
+    "notes": "Work/hauling, Truck buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/ford-f-150.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 3,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "ford-escape-2021",
+    "make": "Ford",
+    "model": "Escape",
+    "year": 2021,
+    "body": "SUV",
+    "price": 23000,
+    "priceEstimateMin": 18000,
+    "priceEstimateMax": 28000,
+    "mpgCity": 28,
+    "mpgHwy": 34,
+    "horsepower": 181,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 200000,
+    "aas": 7.8,
+    "bestFor": [
+      "Small SUV buyers",
+      "Commuters",
+      "Value"
+    ],
+    "pros": [
+      "Easy to drive",
+      "Good MPG",
+      "Available hybrid"
+    ],
+    "cons": [
+      "Interior is less premium",
+      "Long-term reliability varies by engine"
+    ],
+    "commonIssues": [
+      "Check recalls",
+      "Inspect transmission feel"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024 hybrid trims"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132014 examples with transmission concerns"
+    ],
+    "notes": "Small SUV buyers, Commuters choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/ford-escape.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "ford-mustang-2020",
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "body": "Coupe",
+    "price": 31500,
+    "priceEstimateMin": 24000,
+    "priceEstimateMax": 39000,
+    "mpgCity": 21,
+    "mpgHwy": 30,
+    "horsepower": 310,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium-High",
+    "mileageLife": 180000,
+    "aas": 7.9,
+    "bestFor": [
+      "Performance",
+      "Style",
+      "Weekend driving"
+    ],
+    "pros": [
+      "Strong performance",
+      "Iconic design",
+      "Good aftermarket support"
+    ],
+    "cons": [
+      "Insurance can be higher",
+      "Less practical rear seat"
+    ],
+    "commonIssues": [
+      "Check for modifications",
+      "Inspect tires, brakes, and accident history"
+    ],
+    "yearsToConsider": [
+      "2018\u20132023"
+    ],
+    "yearsToAvoid": [
+      "Avoid heavily modified examples"
+    ],
+    "notes": "Performance, Style choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/ford-mustang.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 3,
+      "performance": 5,
+      "longevity": 4,
+      "safety": 4,
+      "value": 3,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "chevrolet-silverado-2021",
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "year": 2021,
+    "body": "Truck",
+    "price": 39000,
+    "priceEstimateMin": 30000,
+    "priceEstimateMax": 48000,
+    "mpgCity": 17,
+    "mpgHwy": 23,
+    "horsepower": 355,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium-High",
+    "mileageLife": 220000,
+    "aas": 8.0,
+    "bestFor": [
+      "Work/hauling",
+      "Truck buyers",
+      "Towing"
+    ],
+    "pros": [
+      "Strong towing ability",
+      "Wide trim selection",
+      "Useful bed/cab options"
+    ],
+    "cons": [
+      "Fuel economy is lower",
+      "Repairs can be expensive"
+    ],
+    "commonIssues": [
+      "Check transmission service",
+      "Inspect towing and frame condition"
+    ],
+    "yearsToConsider": [
+      "2018\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2007\u20132008 high-mileage examples"
+    ],
+    "notes": "Work/hauling, Truck buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/chevrolet-silverado.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 4,
+      "value": 3,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "chevrolet-malibu-2021",
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 20000,
+    "priceEstimateMin": 16000,
+    "priceEstimateMax": 24000,
+    "mpgCity": 29,
+    "mpgHwy": 36,
+    "horsepower": 160,
+    "reliabilityScore": 6,
+    "maintenanceCost": "Medium",
+    "mileageLife": 180000,
+    "aas": 7.3,
+    "bestFor": [
+      "Budget midsize sedan",
+      "Commuters",
+      "Value"
+    ],
+    "pros": [
+      "Affordable used pricing",
+      "Comfortable ride",
+      "Good highway MPG"
+    ],
+    "cons": [
+      "Lower resale value",
+      "Reliability trails top competitors"
+    ],
+    "commonIssues": [
+      "Check engine and transmission service",
+      "Inspect electronics"
+    ],
+    "yearsToConsider": [
+      "2019\u20132023"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132016 high-mileage examples"
+    ],
+    "notes": "Budget midsize sedan, Commuters choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/chevrolet-malibu.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 2,
+      "longevity": 3,
+      "safety": 4,
+      "value": 3,
+      "resale": 2
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "chevrolet-equinox-2021",
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2021,
+    "body": "SUV",
+    "price": 23000,
+    "priceEstimateMin": 18000,
+    "priceEstimateMax": 28000,
+    "mpgCity": 26,
+    "mpgHwy": 31,
+    "horsepower": 170,
+    "reliabilityScore": 6,
+    "maintenanceCost": "Medium",
+    "mileageLife": 190000,
+    "aas": 7.4,
+    "bestFor": [
+      "Budget SUV buyers",
+      "Small families",
+      "Commuters"
+    ],
+    "pros": [
+      "Affordable compact SUV",
+      "Comfortable ride",
+      "Easy controls"
+    ],
+    "cons": [
+      "Not as reliable as RAV4/CR-V",
+      "Acceleration is modest"
+    ],
+    "commonIssues": [
+      "Check oil consumption history",
+      "Inspect turbo/engine service"
+    ],
+    "yearsToConsider": [
+      "2020\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2010\u20132013 high-mileage examples"
+    ],
+    "notes": "Budget SUV buyers, Small families choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/chevrolet-equinox.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 2,
+      "longevity": 3,
+      "safety": 4,
+      "value": 3,
+      "resale": 2
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "volkswagen-jetta-2021",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 20500,
+    "priceEstimateMin": 16000,
+    "priceEstimateMax": 25000,
+    "mpgCity": 29,
+    "mpgHwy": 39,
+    "horsepower": 147,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 190000,
+    "aas": 7.8,
+    "bestFor": [
+      "Commuters",
+      "Style",
+      "Value"
+    ],
+    "pros": [
+      "Comfortable highway ride",
+      "Good MPG",
+      "Clean interior design"
+    ],
+    "cons": [
+      "Maintenance can cost more than Japanese rivals",
+      "Resale value varies"
+    ],
+    "commonIssues": [
+      "Check service records",
+      "Inspect electronics"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2006\u20132010 older examples with poor records"
+    ],
+    "notes": "Commuters, Style choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/volkswagen-jetta.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 4,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "volkswagen-passat-2020",
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2020,
+    "body": "Sedan",
+    "price": 21500,
+    "priceEstimateMin": 17000,
+    "priceEstimateMax": 26000,
+    "mpgCity": 23,
+    "mpgHwy": 34,
+    "horsepower": 174,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 190000,
+    "aas": 7.6,
+    "bestFor": [
+      "Midsize sedan buyers",
+      "Comfort",
+      "Value"
+    ],
+    "pros": [
+      "Large cabin",
+      "Comfortable ride",
+      "Often affordable used"
+    ],
+    "cons": [
+      "Less efficient than some rivals",
+      "Discontinued model affects selection"
+    ],
+    "commonIssues": [
+      "Check service history",
+      "Inspect electronics and suspension"
+    ],
+    "yearsToConsider": [
+      "2018\u20132021"
+    ],
+    "yearsToAvoid": [
+      "2012\u20132014 high-mileage examples"
+    ],
+    "notes": "Midsize sedan buyers, Comfort choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/volkswagen-passat.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 4,
+      "value": 3,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "volkswagen-tiguan-2021",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2021,
+    "body": "SUV",
+    "price": 25500,
+    "priceEstimateMin": 20000,
+    "priceEstimateMax": 31000,
+    "mpgCity": 23,
+    "mpgHwy": 29,
+    "horsepower": 184,
+    "reliabilityScore": 7,
+    "maintenanceCost": "Medium",
+    "mileageLife": 190000,
+    "aas": 7.7,
+    "bestFor": [
+      "Small families",
+      "European feel",
+      "SUV buyers"
+    ],
+    "pros": [
+      "Comfortable interior",
+      "Available third row",
+      "Good road manners"
+    ],
+    "cons": [
+      "MPG is average",
+      "Maintenance can be higher"
+    ],
+    "commonIssues": [
+      "Check warranty/service history",
+      "Inspect electronics"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2009\u20132012 older examples"
+    ],
+    "notes": "Small families, European feel choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/volkswagen-tiguan.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 3,
+      "resale": 3
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "lexus-es-2021",
+    "make": "Lexus",
+    "model": "ES",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 38000,
+    "priceEstimateMin": 31000,
+    "priceEstimateMax": 45000,
+    "mpgCity": 22,
+    "mpgHwy": 32,
+    "horsepower": 302,
+    "reliabilityScore": 9,
+    "maintenanceCost": "Medium",
+    "mileageLife": 250000,
+    "aas": 8.9,
+    "bestFor": [
+      "Luxury comfort",
+      "Reliability",
+      "Quiet commute"
+    ],
+    "pros": [
+      "Excellent comfort",
+      "Strong reliability",
+      "High resale value"
+    ],
+    "cons": [
+      "Higher purchase price",
+      "Less sporty than German rivals"
+    ],
+    "commonIssues": [
+      "Check service records",
+      "Inspect tires/brakes"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "Avoid neglected high-mileage examples"
+    ],
+    "notes": "Luxury comfort, Reliability choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/lexus-es.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 5,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "lexus-is-2021",
+    "make": "Lexus",
+    "model": "IS",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 39500,
+    "priceEstimateMin": 32000,
+    "priceEstimateMax": 47000,
+    "mpgCity": 21,
+    "mpgHwy": 31,
+    "horsepower": 241,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 230000,
+    "aas": 8.4,
+    "bestFor": [
+      "Entry luxury",
+      "Reliability",
+      "Style"
+    ],
+    "pros": [
+      "Reliable luxury sedan",
+      "Sporty design",
+      "Comfortable front seats"
+    ],
+    "cons": [
+      "Rear seat is tight",
+      "Less tech-forward than rivals"
+    ],
+    "commonIssues": [
+      "Check tire wear",
+      "Inspect accident history"
+    ],
+    "yearsToConsider": [
+      "2017\u20132024"
+    ],
+    "yearsToAvoid": [
+      "Avoid modified examples"
+    ],
+    "notes": "Entry luxury, Reliability choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/lexus-is.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 3,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "lexus-rx-2021",
+    "make": "Lexus",
+    "model": "RX",
+    "year": 2021,
+    "body": "SUV",
+    "price": 44000,
+    "priceEstimateMin": 36000,
+    "priceEstimateMax": 52000,
+    "mpgCity": 20,
+    "mpgHwy": 27,
+    "horsepower": 295,
+    "reliabilityScore": 9,
+    "maintenanceCost": "Medium",
+    "mileageLife": 250000,
+    "aas": 8.8,
+    "bestFor": [
+      "Luxury SUV",
+      "Families",
+      "Reliability"
+    ],
+    "pros": [
+      "Comfortable and quiet",
+      "Excellent reliability reputation",
+      "Strong resale"
+    ],
+    "cons": [
+      "Higher used price",
+      "Not very sporty"
+    ],
+    "commonIssues": [
+      "Check hybrid battery on hybrid trims",
+      "Inspect service history"
+    ],
+    "yearsToConsider": [
+      "2016\u20132024"
+    ],
+    "yearsToAvoid": [
+      "Avoid neglected high-mileage examples"
+    ],
+    "notes": "Luxury SUV, Families choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/lexus-rx.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 5,
+      "performance": 3,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 5
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "acura-integra-2023",
+    "make": "Acura",
+    "model": "Integra",
+    "year": 2023,
+    "body": "Hatchback",
+    "price": 33500,
+    "priceEstimateMin": 28000,
+    "priceEstimateMax": 39000,
+    "mpgCity": 30,
+    "mpgHwy": 37,
+    "horsepower": 200,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 220000,
+    "aas": 8.3,
+    "bestFor": [
+      "Fun commuter",
+      "Hatchback buyers",
+      "Entry luxury"
+    ],
+    "pros": [
+      "Practical hatchback shape",
+      "Good MPG",
+      "Sporty feel"
+    ],
+    "cons": [
+      "Newer used prices can be high",
+      "Road noise can be noticeable"
+    ],
+    "commonIssues": [
+      "Check tire wear",
+      "Inspect for modifications"
+    ],
+    "yearsToConsider": [
+      "2023\u20132024"
+    ],
+    "yearsToAvoid": [
+      "No broad avoid year yet"
+    ],
+    "notes": "Fun commuter, Hatchback buyers choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/acura-integra.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "acura-tlx-2021",
+    "make": "Acura",
+    "model": "TLX",
+    "year": 2021,
+    "body": "Sedan",
+    "price": 36500,
+    "priceEstimateMin": 29000,
+    "priceEstimateMax": 44000,
+    "mpgCity": 22,
+    "mpgHwy": 31,
+    "horsepower": 272,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 220000,
+    "aas": 8.2,
+    "bestFor": [
+      "Entry luxury",
+      "Comfort",
+      "Daily driving"
+    ],
+    "pros": [
+      "Comfortable and refined",
+      "Good reliability outlook",
+      "Strong styling"
+    ],
+    "cons": [
+      "Rear seat is smaller than size suggests",
+      "Not as efficient as some rivals"
+    ],
+    "commonIssues": [
+      "Check service history",
+      "Inspect tires and brakes"
+    ],
+    "yearsToConsider": [
+      "2021\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2015 early examples if neglected"
+    ],
+    "notes": "Entry luxury, Comfort choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/acura-tlx.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 3,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  },
+  {
+    "id": "acura-rdx-2021",
+    "make": "Acura",
+    "model": "RDX",
+    "year": 2021,
+    "body": "SUV",
+    "price": 37500,
+    "priceEstimateMin": 30000,
+    "priceEstimateMax": 45000,
+    "mpgCity": 22,
+    "mpgHwy": 28,
+    "horsepower": 272,
+    "reliabilityScore": 8,
+    "maintenanceCost": "Medium",
+    "mileageLife": 220000,
+    "aas": 8.3,
+    "bestFor": [
+      "Luxury SUV value",
+      "Small families",
+      "Comfort"
+    ],
+    "pros": [
+      "Strong engine",
+      "Good features",
+      "Lower cost than some luxury rivals"
+    ],
+    "cons": [
+      "MPG is average",
+      "Touchpad infotainment is not for everyone"
+    ],
+    "commonIssues": [
+      "Check SH-AWD service",
+      "Inspect tires/brakes"
+    ],
+    "yearsToConsider": [
+      "2019\u20132024"
+    ],
+    "yearsToAvoid": [
+      "2013\u20132015 high-mileage examples"
+    ],
+    "notes": "Luxury SUV value, Small families choice with estimated used pricing and ownership notes.",
+    "imageUrl": "images/acura-rdx.webp",
+    "imageStyle": "user-supplied real vehicle image; shown as 2026 model reference",
+    "ratings": {
+      "comfort": 4,
+      "performance": 4,
+      "longevity": 4,
+      "safety": 5,
+      "value": 4,
+      "resale": 4
+    },
+    "hasRealPhoto": true,
+    "imageModelYear": 2026
+  }
+]
